@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+    
+    
+<!-- Mirrored from voixoff.ma/auth/login by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 18 Mar 2024 11:26:43 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="csrf-token" content="zeq7LVIxfIHYCmccz5M4JImblJlbfFh8juKOeqqi">
+
+        
+        <title>Connexion | Voixoff.ma</title>
+<meta name="description" content="Agence de voix off Maroc : Enregistrements professionnels et captivants. Expérience dans la publicité, narration, documentaires, etc. Contactez-nous dès maintenant pour une voix off francophone/ Darija de qualité.">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<link rel="canonical" href="login.html"/>
+<meta property="og:title" content="Connexion | Voixoff.ma" />
+<meta property="og:description" content="Agence de voix off Maroc : Enregistrements professionnels et captivants. Expérience dans la publicité, narration, documentaires, etc. Contactez-nous dès maintenant pour une voix off francophone/ Darija de qualité." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="login.html" />
+<meta property="og:image" content="../public/storage/site/ogimage/725229E6190496F854B6.jpg" />
+
+<meta name="twitter:title" content="Connexion | Voixoff.ma" />
+<meta name="twitter:description" content="Agence de voix off Maroc : Enregistrements professionnels et captivants. Expérience dans la publicité, narration, documentaires, etc. Contactez-nous dès maintenant pour une voix off francophone/ Darija de qualité." />
+<meta name="twitter:image" content="../public/storage/site/ogimage/725229E6190496F854B6.jpg" />
+<meta name="twitter:url" content="login.html" />
+<meta name="twitter:site" content="@" />
+<meta name="twitter:card" content="summary_large_image" />
+
+
+        
+        <link rel="icon" type="image/png" href="../public/storage/site/favicon/7FED5D689352E0E3F116.png"/>
+
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com/">
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+
+        
+        <!-- Livewire Styles -->
+<style >
+    [wire\:loading], [wire\:loading\.delay], [wire\:loading\.inline-block], [wire\:loading\.inline], [wire\:loading\.block], [wire\:loading\.flex], [wire\:loading\.table], [wire\:loading\.grid], [wire\:loading\.inline-flex] {
+        display: none;
+    }
+
+    [wire\:loading\.delay\.shortest], [wire\:loading\.delay\.shorter], [wire\:loading\.delay\.short], [wire\:loading\.delay\.long], [wire\:loading\.delay\.longer], [wire\:loading\.delay\.longest] {
+        display:none;
+    }
+
+    [wire\:offline] {
+        display: none;
+    }
+
+    [wire\:dirty]:not(textarea):not(input):not(select) {
+        display: none;
+    }
+
+    input:-webkit-autofill, select:-webkit-autofill, textarea:-webkit-autofill {
+        animation-duration: 50000s;
+        animation-name: livewireautofill;
+    }
+
+    @keyframes livewireautofill { from {} }
+</style>
+
+        
+        <link href="../public/css/appe67d.css?v=1.3" rel="stylesheet">
+        <link href="../public/css/stylee67d.css?v=1.3" rel="stylesheet">
+
+        
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+
+		
+        <style>
+            :root {
+                --color-primary  : #f2c543;
+                --color-primary-h: 45;
+                --color-primary-s: 87%;
+                --color-primary-l: 61%;
+            }
+            html {
+                font-family: Sole Sans Extended Extra Bold, sans-serif !important;
+            }
+        </style>
+
+        
+        	
+	
+	
+
+        
+        <script>
+            __var_app_url        = "../index.html";
+            __var_app_locale     = "fr";
+            __var_rtl            = false;
+            __var_primary_color  = "#f2c543";
+            __var_axios_base_url = "../index.html";
+            __var_currency_code  = "MAD";
+        </script>
+
+    </head>
+
+    <body class="antialiased bg-gray-50 dark:bg-[#161616] text-gray-600 min-h-full flex flex-col application application-ltr overflow-x-hidden ">
+
+        
+        <div class="fixed z-[60] inset-0 flex items-end justify-center px-4 py-6
+            pointer-events-none sm:p-5 sm:pt-4 sm:items-start sm:justify-center"
+     x-data="wireui_notifications"
+     x-on:wireui:notification.window="addNotification($event.detail)"
+     x-on:wireui:confirm-notification.window="addConfirmNotification($event.detail)"
+     wire:ignore>
+    <div class="max-w-sm w-full space-y-2 pointer-events-auto flex flex-col-reverse">
+        <template x-for="notification in notifications" :key="`notification-${notification.id}`">
+            <div class="max-w-sm w-full bg-white shadow-lg rounded-lg ring-1 ring-black
+                        ring-opacity-5 relative overflow-hidden pointer-events-auto
+                        dark:bg-zinc-800 dark:border dark:border-zinc-700"
+                 :class="{ 'flex': notification.rightButtons }"
+                 :id="`notification.${notification.id}`"
+                 x-transition:enter="transform ease-out duration-300 transition"
+                 x-transition:enter-start="translate-y-2 opacity-0 sm:translate-y-0 sm:translate-x-2"
+                 x-transition:enter-end="translate-y-0 opacity-100 sm:translate-x-0"
+                 x-on:mouseenter="pauseNotification(notification)"
+                 x-on:mouseleave="resumeNotification(notification)">
+                <div class="bg-zinc-300 dark:bg-zinc-600 rounded-full transition-all duration-150 ease-linear absolute top-0 ltr:left-0 rtl:right-0"
+                     style="height: 2px; width: 100%;"
+                     :id="`timeout.bar.${notification.id}`"
+                     x-show="Boolean(notification.timer) && notification.progressbar !== false">
+                </div>
+                <div :class="{
+                        'pl-4': Boolean(notification.dense),
+                        'p-4': !Boolean(notification.rightButtons),
+                        'w-0 flex-1 flex items-center p-4': Boolean(notification.rightButtons),
+                    }">
+                    <div :class="{
+                        'flex items-start': !Boolean(notification.rightButtons),
+                        'w-full flex': Boolean(notification.rightButtons),
+                    }">
+                        <!-- notification icon|img -->
+                        <template x-if="notification.icon || notification.img">
+                            <div class="shrink-0" :class="{
+                                    'w-6': Boolean(notification.icon),
+                                    'pt-0.5': Boolean(notification.img),
+                                }">
+                                <template x-if="notification.icon">
+                                    <div class="notification-icon"></div>
+                                </template>
+
+                                <template x-if="notification.img">
+                                    <img class="h-10 w-10 rounded-full" :src="notification.img" />
+                                </template>
+                            </div>
+                        </template>
+
+                        <div class="w-0 flex-1 pt-0.5" :class="{
+                                'ltr:ml-3 rtl:mr-3': Boolean(notification.icon || notification.img)
+                            }">
+                            <p class="text-sm font-medium text-zinc-900 dark:text-zinc-400"
+                               x-show="notification.title"
+                               x-html="notification.title">
+                            </p>
+                            <p class="mt-1 text-sm text-zinc-500"
+                               x-show="notification.description"
+                               x-html="notification.description">
+                            </p>
+
+                            <!-- actions buttons -->
+                            <template x-if="!notification.dense && !notification.rightButtons && (notification.accept || notification.reject)">
+                                <div class="mt-3 flex gap-x-3">
+                                    <button class="rounded-md text-sm font-medium focus:outline-none"
+                                            :class="{
+                                            'bg-white dark:bg-transparent text-primary-600 hover:text-primary-500': !Boolean($wireui.dataGet(notification, 'accept.style')),
+                                            [$wireui.dataGet(notification, 'accept.style')]: Boolean($wireui.dataGet(notification, 'accept.style')),
+                                            'px-3 py-2 border shadow-sm': Boolean($wireui.dataGet(notification, 'accept.solid')),
+                                        }"
+                                            x-on:click="accept(notification)"
+                                            x-show="$wireui.dataGet(notification, 'accept.label')"
+                                            x-text="$wireui.dataGet(notification, 'accept.label', '')">
+                                    </button>
+
+                                    <button class="rounded-md text-sm font-medium focus:outline-none"
+                                            :class="{
+                                            'bg-white dark:bg-transparent text-zinc-700 dark:text-zinc-600 hover:text-zinc-500': !Boolean($wireui.dataGet(notification, 'reject.style')),
+                                            [$wireui.dataGet(notification, 'reject.style')]: Boolean($wireui.dataGet(notification, 'reject.style')),
+                                            'px-3 py-2 border border-zinc-300 shadow-sm': Boolean($wireui.dataGet(notification, 'accept.solid')),
+                                        }"
+                                            x-on:click="reject(notification)"
+                                            x-show="$wireui.dataGet(notification, 'reject.label')"
+                                            x-text="$wireui.dataGet(notification, 'reject.label', '')">
+                                    </button>
+                                </div>
+                            </template>
+                        </div>
+
+                        <div class="ltr:ml-4 rtl:mr-4 shrink-0 flex">
+                            <!-- accept button -->
+                            <button class="mr-4 shrink-0 rounded-md text-sm font-medium focus:outline-none"
+                                    :class="{
+                                    'text-primary-600 hover:text-primary-500': !Boolean($wireui.dataGet(notification, 'accept.style')),
+                                    [$wireui.dataGet(notification, 'accept.style')]: Boolean($wireui.dataGet(notification, 'accept.style'))
+                                }"
+                                    x-on:click="accept(notification)"
+                                    x-show="notification.dense && notification.accept"
+                                    x-text="$wireui.dataGet(notification, 'accept.label', '')">
+                            </button>
+
+                            <!-- close button -->
+                            <button class="rounded-md inline-flex text-zinc-400 hover:text-zinc-500 focus:outline-none"
+                                    x-show="notification.closeButton"
+                                    x-on:click="closeNotification(notification)">
+                                <span class="sr-only">Close</span>
+                                <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+</svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- right actions buttons -->
+                <template x-if="notification.rightButtons">
+                    <div class="flex flex-col border-l border-zinc-200 dark:border-zinc-700">
+                        <template x-if="notification.accept">
+                            <div class="h-0 flex-1 flex" :class="{
+                                'border-b border-zinc-200 dark:border-zinc-700': notification.reject
+                            }">
+                                <button class="w-full rounded-none rounded-tr-lg px-4 py-3 flex items-center
+                                               justify-center text-sm font-medium focus:outline-none"
+                                        :class="{
+                                        'text-primary-600 hover:text-primary-500 hover:bg-zinc-50 dark:hover:bg-zinc-700': !Boolean(notification.accept.style),
+                                        [notification.accept.style]: Boolean(notification.accept.style),
+                                        'rounded-br-lg': !Boolean(notification.reject),
+                                    }"
+                                        x-on:click="accept(notification)"
+                                        x-text="notification.accept.label">
+                                </button>
+                            </div>
+                        </template>
+
+                        <template x-if="notification.reject">
+                            <div class="h-0 flex-1 flex">
+                                <button class="w-full rounded-none rounded-br-lg px-4 py-3 flex items-center
+                                                justify-center text-sm font-medium focus:outline-none"
+                                        :class="{
+                                        'text-zinc-700 hover:text-zinc-500 dark:text-zinc-600 hover:bg-zinc-50 dark:hover:bg-zinc-700': !Boolean(notification.reject.style),
+                                        [notification.reject.style]: Boolean(notification.reject.style),
+                                        'rounded-tr-lg': !Boolean(notification.accept),
+                                    }"
+                                        x-on:click="reject(notification)"
+                                        x-text="notification.reject.label">
+                                </button>
+                            </div>
+                        </template>
+                    </div>
+                </template>
+            </div>
+        </template>
+    </div>
+</div>
+
+        
+        <div class="min-h-screen flex grow bg-slate-50 dark:bg-zinc-700">
+            
+            <div class="hidden w-full place-items-center lg:grid">
+                <div class="w-full px-2 py-40 sm:py-48 sm:px-12 flex flex-col justify-center relative bg-no-repeat bg-center bg-cover h-full"  style="background-image: url(../public/storage/site/auth/C9727B57005E1149FB7C.jpg)" >
+                    <span class="absolute bg-gradient-to-b from-primary-500 to-primary-400 opacity-75 inset-0 z-0"></span>
+
+                    
+                    <div class="fixed top-0 ltr:left-0 rtl:right-0 hidden p-6 lg:block lg:px-12">
+                                                    <a href="../index.html" class="flex items-center">
+                                <img src="../public/storage/site/logo/F5A990DBDB46F79A325A.png" alt="Voixoff.ma" style="height: 50px;">
+                            </a>
+                                            </div>
+
+                    
+                    <div class="fixed bottom-0 ltr:left-0 rtl:right-0 hidden p-6 lg:block lg:px-12 text-white font-normal text-[13px]">
+                        VOIX OFF SARL 
+                    </div>
+
+                </div>
+            </div>
+            <main class="flex w-full flex-col items-center bg-white dark:bg-navy-700 lg:max-w-md">
+                    <div wire:id="qVjJkXI4QdaWIyV6Nwn2" wire:initial-data="{&quot;fingerprint&quot;:{&quot;id&quot;:&quot;qVjJkXI4QdaWIyV6Nwn2&quot;,&quot;name&quot;:&quot;main.auth.login-component&quot;,&quot;locale&quot;:&quot;fr&quot;,&quot;path&quot;:&quot;auth\/login&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;v&quot;:&quot;acj&quot;},&quot;effects&quot;:{&quot;listeners&quot;:[]},&quot;serverMemo&quot;:{&quot;children&quot;:[],&quot;errors&quot;:[],&quot;htmlHash&quot;:&quot;43cd435b&quot;,&quot;data&quot;:{&quot;email&quot;:null,&quot;password&quot;:null,&quot;recaptcha_token&quot;:null,&quot;remember_me&quot;:true,&quot;social_grid&quot;:1},&quot;dataMeta&quot;:[],&quot;checksum&quot;:&quot;822c2e3f2c811604e321c5e1fdd578cc53fcf89891d3a3f50e87f8ea300d5109&quot;}}" class="flex w-full max-w-sm grow flex-col justify-center p-5">
+
+	
+	<div class="text-center">
+		<div class="mt-4">
+			<h2 class="text-xl font-bold text-zinc-700 dark:text-navy-100">
+				Bienvenue			</h2>
+			<p class="text-zinc-400 dark:text-gray-300">
+				Veuillez vous connecter pour continuer			</p>
+			<a href="../index.html" class="block lg:hidden mt-3 text-sm tracking-wider font-semibold text-blue-600 hover:underline">
+				Retour à la page d'accueil			</a>
+		</div>
+	</div>
+
+	
+	<div class="mt-8">
+		
+		
+		
+		
+			
+		<div class="w-full relative">
+			
+			
+			<div class="mt-6">
+				<form x-data="window.zyKtAkZuKbBmbfC" x-on:submit.prevent="login" class="grid grid-cols-12 md:gap-x-6 gap-y-6">
+
+					
+					<div class="col-span-12">
+						<div class="relative w-full shadow-sm rounded-md">
+
+							
+							<input type="email" x-model="form.email" class="focus:ring-primary-600 focus:border-primary-600 border-gray-300 border text-gray-900 text-sm rounded-md font-medium block w-full ltr:pr-12 rtl:pl-12 p-4 placeholder:font-normal dark:bg-zinc-700 dark:border-zinc-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Entrez votre adresse e-mail">
+
+							
+							<div class="absolute inset-y-0 ltr:right-0 rtl:left-0 flex items-center ltr:pr-3 rtl:pl-3">
+								<svg class="w-5 h-5 text-gray-400" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 20 20" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M14.243 5.757a6 6 0 10-.986 9.284 1 1 0 111.087 1.678A8 8 0 1118 10a3 3 0 01-4.8 2.401A4 4 0 1114 10a1 1 0 102 0c0-1.537-.586-3.07-1.757-4.243zM12 10a2 2 0 10-4 0 2 2 0 004 0z" clip-rule="evenodd"></path></svg>
+							</div>
+
+						</div>
+
+						
+						
+					</div>
+
+					
+					<div class="col-span-12">
+						<div class="relative w-full shadow-sm rounded-md">
+
+							
+							<input type="password" x-model="form.password" class="focus:ring-primary-600 focus:border-primary-600 border-gray-300 border text-gray-900 text-sm rounded-md font-medium block w-full ltr:pr-12 rtl:pl-12 p-4 placeholder:font-normal  dark:bg-zinc-700 dark:border-zinc-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Entrez votre mot de passe">
+
+							
+							<div class="absolute inset-y-0 ltr:right-0 rtl:left-0 flex items-center ltr:pr-3 rtl:pl-3">
+								<svg class="w-5 h-5 text-gray-400" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clip-rule="evenodd"></path></svg>
+							</div>
+
+						</div>
+
+						
+						
+					</div>
+
+					
+					<div class="col-span-12 flex items-center">
+						<div class="relative flex items-start">
+							<div class="flex items-center h-5">
+								<input id="remember_me" wire:model.defer="remember_me" type="checkbox" class="focus:ring-primary-600 h-5 w-5 text-primary-600 border-2 dark:bg-zinc-700 border-gray-200 dark:border-zinc-700 rounded-sm cursor-pointer">
+							</div>
+							<div class="ltr:ml-3 rtl:mr-3 text-[13px]">
+								<label for="remember_me" class="font-normal text-zinc-600 dark:text-gray-400 cursor-pointer">Se souvenir de moi</label>
+							</div>
+						</div>
+					</div>
+
+					
+					
+					
+					<div class="col-span-12">
+						<button type="submit" wire:loading.attr="disabled" wire:target="login" :disabled="!form.email || !form.password" class="w-full bg-primary-600 enabled:hover:bg-primary-700 text-white py-4.5 px-4 rounded-md text-[13px] font-semibold tracking-wide disabled:bg-zinc-200 disabled:text-zinc-500">
+							
+							
+							<div wire:loading wire:target="login">
+								<svg role="status" class="inline w-4 h-4 text-gray-700 animate-spin" viewBox="0 0 100 101" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M100 50.5908C100 78.2051 77.6142 100.591 50 100.591C22.3858 100.591 0 78.2051 0 50.5908C0 22.9766 22.3858 0.59082 50 0.59082C77.6142 0.59082 100 22.9766 100 50.5908ZM9.08144 50.5908C9.08144 73.1895 27.4013 91.5094 50 91.5094C72.5987 91.5094 90.9186 73.1895 90.9186 50.5908C90.9186 27.9921 72.5987 9.67226 50 9.67226C27.4013 9.67226 9.08144 27.9921 9.08144 50.5908Z" fill="#E5E7EB"/>
+									<path d="M93.9676 39.0409C96.393 38.4038 97.8624 35.9116 97.0079 33.5539C95.2932 28.8227 92.871 24.3692 89.8167 20.348C85.8452 15.1192 80.8826 10.7238 75.2124 7.41289C69.5422 4.10194 63.2754 1.94025 56.7698 1.05124C51.7666 0.367541 46.6976 0.446843 41.7345 1.27873C39.2613 1.69328 37.813 4.19778 38.4501 6.62326C39.0873 9.04874 41.5694 10.4717 44.0505 10.1071C47.8511 9.54855 51.7191 9.52689 55.5402 10.0491C60.8642 10.7766 65.9928 12.5457 70.6331 15.2552C75.2735 17.9648 79.3347 21.5619 82.5849 25.841C84.9175 28.9121 86.7997 32.2913 88.1811 35.8758C89.083 38.2158 91.5421 39.6781 93.9676 39.0409Z" fill="currentColor"/>
+								</svg>
+							</div>
+
+							
+							<div wire:loading.remove wire:target="login">
+								Connexion							</div>
+							
+						</button>
+					</div>
+					
+				</form>
+			</div>
+
+			
+			<div class="my-6 relative">
+				<div class="absolute inset-0 flex items-center" aria-hidden="true">
+					<div class="w-full border-t border-gray-300 dark:border-zinc-700"></div>
+				</div>
+				<div class="relative flex justify-center text-sm">
+					<span class="px-2 bg-white dark:bg-zinc-800 text-gray-500 dark:text-gray-400">
+						Ou
+					</span>
+				</div>
+			</div>
+
+			
+							<div class="mt-1 grid grid-cols-1 gap-3">
+
+					
+					
+					
+											<div style="    width: 100%;">
+							<a href="https://accounts.google.com/o/oauth2/auth?client_id=94763947853-u34i1qghdstb8euce2hmp4ecerh7nh0c.apps.googleusercontent.com&amp;redirect_uri=https%3A%2F%2Fvoixoff.ma%2Fauth%2Fgoogle%2Fcallback&amp;scope=openid+profile+email&amp;response_type=code" class="w-full inline-flex justify-center py-3 rounded-sm bg-zinc-200 hover:bg-[#eeeded] dark:bg-zinc-700 dark:hover:bg-zinc-600 text-sm font-medium">
+								<svg width="20" style="margin-right:2px" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.171 8.368h-.67v-.035H10v3.333h4.709A4.998 4.998 0 0 1 5 10a5 5 0 0 1 5-5c1.275 0 2.434.48 3.317 1.266l2.357-2.357A8.295 8.295 0 0 0 10 1.667a8.334 8.334 0 1 0 8.171 6.7Z" fill="#FFC107"></path><path d="M2.628 6.121 5.366 8.13A4.998 4.998 0 0 1 10 4.999c1.275 0 2.434.482 3.317 1.267l2.357-2.357A8.295 8.295 0 0 0 10 1.667 8.329 8.329 0 0 0 2.628 6.12Z" fill="#FF3D00"></path><path d="M10 18.333a8.294 8.294 0 0 0 5.587-2.163l-2.579-2.183A4.963 4.963 0 0 1 10 15a4.998 4.998 0 0 1-4.701-3.311L2.58 13.783A8.327 8.327 0 0 0 10 18.333Z" fill="#4CAF50"></path><path d="M18.171 8.368H17.5v-.034H10v3.333h4.71a5.017 5.017 0 0 1-1.703 2.321l2.58 2.182c-.182.166 2.746-2.003 2.746-6.17 0-.559-.057-1.104-.162-1.632Z" fill="#1976D2"></path></svg> Login with Google
+							</a>
+						</div>
+						
+					
+					
+					
+					
+					
+					
+										
+				</div>
+			
+			
+			<div class="mt-6">
+				<ul class="list-disc list-inside text-slate-500 text-[13px] space-y-2">
+
+					
+				
+				<li>
+    <a class="bg-gray-500 hover:bg-black text-white py-2 px-4 rounded inline-block no-underline" href="register.html">
+        Créer un compte    </a>
+</li>
+
+
+					
+					<li>
+						<a class="hover:text-slate-600 hover:underline" href="password/reset.html">
+							Mot de passe oublié?	
+						</a>
+					</li>
+
+					
+					<li>
+						<a class="hover:text-slate-600 hover:underline" href="request.html">
+							Renvoyer l'e-mail de vérification	
+						</a>
+					</li>
+
+					
+					
+						
+						<li>
+							<a class="hover:text-slate-600 hover:underline" href="../page/terms-conditions.html">Terms and Conditions</a>
+						</li>
+
+						
+						<li>
+							<a class="hover:text-slate-600 hover:underline" href="../page/terms-conditions.html">Terms and Conditions</a>
+						</li>
+					
+				</ul>
+			</div>
+			
+		</div>
+
+	</div>
+
+</div>
+
+
+
+<!-- Livewire Component wire-end:qVjJkXI4QdaWIyV6Nwn2 -->
+            </main>
+        </div>
+
+        
+        <!-- Livewire Scripts -->
+
+<script src="../public/vendor/livewire/livewire4a5a.js?id=90730a3b0e7144480175" data-turbo-eval="false" data-turbolinks-eval="false" ></script>
+<script data-turbo-eval="false" data-turbolinks-eval="false" >
+    if (window.livewire) {
+	    console.warn('Livewire: It looks like Livewire\'s @livewireScripts JavaScript assets have already been loaded. Make sure you aren\'t loading them twice.')
+	}
+
+    window.livewire = new Livewire();
+    window.livewire.devTools(true);
+    window.Livewire = window.livewire;
+    window.livewire_app_url = '../index.html';
+    window.livewire_token = 'zeq7LVIxfIHYCmccz5M4JImblJlbfFh8juKOeqqi';
+
+	/* Make sure Livewire loads first. */
+	if (window.Alpine) {
+	    /* Defer showing the warning so it doesn't get buried under downstream errors. */
+	    document.addEventListener("DOMContentLoaded", function () {
+	        setTimeout(function() {
+	            console.warn("Livewire: It looks like AlpineJS has already been loaded. Make sure Livewire\'s scripts are loaded before Alpine.\\n\\n Reference docs for more info: http://laravel-livewire.com/docs/alpine-js")
+	        })
+	    });
+	}
+
+	/* Make Alpine wait until Livewire is finished rendering to do its thing. */
+    window.deferLoadingAlpine = function (callback) {
+        window.addEventListener('livewire:load', function () {
+            callback();
+        });
+    };
+
+    let started = false;
+
+    window.addEventListener('alpine:initializing', function () {
+        if (! started) {
+            window.livewire.start();
+
+            started = true;
+        }
+    });
+
+    document.addEventListener("DOMContentLoaded", function () {
+        if (! started) {
+            window.livewire.start();
+
+            started = true;
+        }
+    });
+</script>
+
+        
+        <script >window.Wireui = {hook(hook, callback) {window.addEventListener(`wireui:${hook}`, () => callback())},dispatchHook(hook) {window.dispatchEvent(new Event(`wireui:${hook}`))}}</script>
+<script src="../wireui/assets/scripts406e?id=3c15fb3b36f54e2baae1e97b6eb0015e" defer ></script>
+
+        
+        <script defer src="../public/js/app.js"></script>
+
+        
+        <script src="../public/js/utils.js"></script>
+
+        
+        	<script>
+		function zyKtAkZuKbBmbfC() {
+			return {
+
+				// reCaptcha
+				recaptcha: Boolean(""),
+
+				// Form
+				form: {
+					email   : null,
+					password: null
+				},
+
+				// Login
+				login() {
+					var _this = this;
+
+					// Is recapctah enabled
+					if (_this.recaptcha) {
+
+						// Get recaptcha response
+						var recaptcha_token = document.getElementById('g-recaptcha-response').value;
+	
+						// Validate recapctah
+						if (!recaptcha_token) {
+						
+							// Error
+							window.$wireui.notify({
+								title      : "Erreur",
+								description: "Vous devez passer le test reCaptcha",
+								icon       : 'error'
+							});
+	
+							return;
+	
+						}
+						
+					} else {
+
+						// reCaptcha has no response
+						var recaptcha_token = null;
+
+					}
+
+					// Validate form
+					if (!_this.form.email || !_this.form.password) {
+						
+						// Error
+						window.$wireui.notify({
+							title      : "Erreur",
+							description: "Oups! Quelque chose ne va pas, veuillez vérifier vos saisies et réessayer.",
+							icon       : 'error'
+						});
+
+						return;
+
+					}
+
+					// Login
+					window.livewire.find('qVjJkXI4QdaWIyV6Nwn2').login({
+						'email'          : _this.form.email,
+						'password'       : _this.form.password,
+						'recaptcha_token': recaptcha_token
+					});
+
+				}
+
+			}
+		}
+		window.zyKtAkZuKbBmbfC = zyKtAkZuKbBmbfC();
+	</script>
+    <script type="module" src="../../config/firebase.js"></script>
+    <script type="module" src="../../config/auth.js"></script>
+
+    </body>
+
+
+<!-- Mirrored from voixoff.ma/auth/login by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 18 Mar 2024 11:26:47 GMT -->
+</html>

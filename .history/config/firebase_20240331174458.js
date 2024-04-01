@@ -9,9 +9,8 @@ const firebaseConfig = {
   authDomain: "voix-off-ai.firebaseapp.com",
   projectId: "voix-off-ai",
   storageBucket: "voix-off-ai.appspot.com",
-  messagingSenderId: "1098652714736f"
+  messagingSenderId: "1098652714736f"fdsf
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-

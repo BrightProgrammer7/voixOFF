@@ -499,7 +499,7 @@
                   <div class="col-span-12">
                     <div class="relative w-full shadow-sm rounded-md">
                       <input
-                        type="email" id="email"
+                        type="email"
                         x-model="form.email"
                         class="focus:ring-primary-600 focus:border-primary-600 border-gray-300 border text-gray-900 text-sm rounded-md font-medium block w-full ltr:pr-12 rtl:pl-12 p-4 placeholder:font-normal dark:bg-zinc-700 dark:border-zinc-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
                         placeholder="Entrez votre adresse e-mail"
@@ -559,7 +559,7 @@
                   <div class="col-span-12">
                     <div class="relative w-full shadow-sm rounded-md">
                       <input
-                        type="text" id="phone"
+                        type="text"
                         x-model="form.phone"
                         class="focus:ring-primary-600 focus:border-primary-600 border-gray-300 border text-gray-900 text-sm rounded-md font-medium block w-full ltr:pr-12 rtl:pl-12 p-4 placeholder:font-normal dark:bg-zinc-700 dark:border-zinc-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
                         name="phone"
@@ -588,7 +588,7 @@
                   <div class="col-span-12">
                     <div class="relative w-full shadow-sm rounded-md">
                       <input
-                        type="password" id="password"
+                        type="password"
                         x-model="form.password"
                         class="focus:ring-primary-600 focus:border-primary-600 border-gray-300 border text-gray-900 text-sm rounded-md font-medium block w-full ltr:pr-12 rtl:pl-12 p-4 placeholder:font-normal dark:bg-zinc-700 dark:border-zinc-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
                         placeholder="Entrez votre mot de passe"
@@ -931,11 +931,11 @@
     </script>
     <script type="module">
       // Import the functions you need from the SDKs you need
-      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-app.js";
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-app.js";
       import {
         getAuth,
         createUserWithEmailAndPassword,
-      } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-auth.js";
+      } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-auth.js";
 
       // Your web app's Firebase configuration
       const firebaseConfig = {
@@ -954,7 +954,7 @@
 
       //Gestionnaire d'événements pour le clic sur le bouton d'enregistrement
       document
-        .getElementById("sign-up-button")
+        .getElementById("register")
         .addEventListener("click", function () {
           var email = document.getElementById("email").value;
           var password = document.getElementById("password").value;

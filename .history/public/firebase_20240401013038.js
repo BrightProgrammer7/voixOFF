@@ -4,7 +4,7 @@ import {initializeApp} from "https://www.gstatic.com/firebasejs/10.9.0/firebase-
 // // TODO: Add SDKs for Firebase products that you want to use
 // // https://firebase.google.com/docs/web/setup#available-libraries
 
-// import {initializeApp} from "https://www.gstatic.com/firebasejs/9.10.0/firebase-app.js";
+import {initializeApp} from "https://www.gstatic.com/firebasejs/9.10.0/firebase-app.js";
 import {getAuth, signInWithEmailAndPassword} from "https://www.gstatic.com/firebasejs/9.10.0/firebase-auth.js";
 
 // Your web app's Firebase configuration
