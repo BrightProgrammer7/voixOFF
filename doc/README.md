@@ -4,7 +4,7 @@ This file provides a high-level overview of the "voixoff.ma" web application, in
 voixoff.ma is a web application designed to connect clients seeking voice-over services with professional voice actors in Morocco. It now implements Firebase Authentication for secure user login and management.
 
 - **Demo:**
-![demo](./doc/demo.mp4)
+![demo](./demo.mp4)
 
 
 - **Features:**
